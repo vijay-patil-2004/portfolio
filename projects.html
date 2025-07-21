@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Vijay Patil</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    body {
+      font-family: 'Fira Code', monospace;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+  <!-- Navbar -->
+  <header class="bg-gray-900 shadow-md py-4 px-6">
+    <nav class="max-w-6xl mx-auto flex justify-between items-center text-white">
+      <h1 class="text-xl font-bold">Vijay Patil</h1>
+      <ul class="flex space-x-6 text-sm font-medium">
+        <li><a href="index.html" class="hover:text-cyan-400">Home</a></li>
+        <li><a href="about.html" class="hover:text-cyan-400">About</a></li>
+        <li><a href="skills.html" class="hover:text-cyan-400">Skills</a></li>
+        <li><a href="projects.html" class="hover:text-cyan-300">Projects</a></li>
+        <li><a href="resume.html" class="hover:text-cyan-400">Resume</a></li>
+        <li><a href="contact.html" class="hover:text-cyan-400">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Projects Section -->
+  <main class="flex-grow">
+    <section class="max-w-6xl mx-auto px-6 py-16">
+      <h2 class="text-3xl sm:text-4xl font-bold text-cyan-400 mb-10 text-center">Projects</h2>
+
+      <div class="grid md:grid-cols-2 gap-10">
+
+        <!-- Project 1: Blogging Website -->
+        <div class="bg-white/10 backdrop-blur-md rounded-xl p-6 border border-cyan-400 shadow-lg hover:scale-105 transition-transform">
+          <img src="https://cdn-icons-png.flaticon.com/512/841/841364.png" alt="Blogging Icon" class="w-14 mb-4 mx-auto" />
+          <h3 class="text-xl font-semibold text-cyan-300 mb-2 text-center">Blogging Website</h3>
+          <p class="text-sm text-gray-300 mb-3">
+            <strong>Technologies:</strong> FastAPI, HTML, CSS, JavaScript, MongoDB, Jenkins, Git, CI/CD, Docker, Docker Compose, AWS EC2, Nginx
+          </p>
+          <ul class="list-disc text-sm text-gray-300 ml-5 space-y-1 mb-4">
+            <li>Developed a responsive dashboard using FastAPI, HTML, CSS, and JavaScript with MongoDB backend.</li>
+            <li>Implemented CI/CD using Jenkins to clone and deploy the Git repository.</li>
+            <li>Containerized with Docker and hosted on AWS EC2 using Docker Compose.</li>
+            <li>Configured Nginx as a reverse proxy for traffic handling.</li>
+          </ul>
+          <div class="flex justify-center space-x-6 text-sm">
+            <a href="https://github.com/vijay-patil-2004/Blogger/tree/main/Blogger-main" target="_blank" class="text-cyan-300 hover:underline">
+              <i class="fab fa-github mr-1"></i> GitHub
+            </a>
+            <a href="#" target="_blank" class="text-cyan-300 hover:underline">
+  
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2: Kubernetes Automation -->
+        <div class="bg-white/10 backdrop-blur-md rounded-xl p-6 border border-cyan-400 shadow-lg hover:scale-105 transition-transform">
+          <img src="https://cdn-icons-png.flaticon.com/512/906/906334.png" alt="Kubernetes Icon" class="w-14 mb-4 mx-auto" />
+          <h3 class="text-xl font-semibold text-cyan-300 mb-2 text-center">Kubernetes-Cluster Automation with Ansible</h3>
+          <p class="text-sm text-gray-300 mb-3">
+            <strong>Technologies:</strong> Kubernetes, Ansible, AWS, Docker
+          </p>
+          <ul class="list-disc text-sm text-gray-300 ml-5 space-y-1 mb-4">
+            <li>Automated setup and configuration of Kubernetes clusters on AWS using Ansible.</li>
+            <li>Reduced deployment time by 10x with reliable and repeatable playbooks.</li>
+            <li>Streamlined provisioning and reduced manual errors drastically.</li>
+          </ul>
+          <div class="flex justify-center space-x-6 text-sm">
+            <a href="https://github.com/vijay-patil-2004/Kubernetes-cluster-on-AWS-using-ansible-automation" target="_blank" class="text-cyan-300 hover:underline">
+              <i class="fab fa-github mr-1"></i> GitHub
+            </a>
+            <a href="#" target="_blank" class="text-cyan-300 hover:underline">
+              
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-center text-sm text-gray-400 py-4">
+    <p>📧 vijayvilaspatil4330@gmail.com | 📞 +91 6360421339 | 🌍 India</p>
+    <p>© 2025 Vijay Patil. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
